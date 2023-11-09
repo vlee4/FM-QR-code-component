@@ -1,0 +1,45 @@
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 300px;
+    padding: 0.9em;
+    border-radius: 15px;
+    box-shadow: hsl(220, 15%, 55%) 15px 15px 50px -30px;
+}
+
+.description {
+    text-align: center;
+    padding: 0 0.75rem;
+}
+
+.heading {
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.instructions {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: medium;
+}
+
+.attribution {
+    color: hsl(220, 15%, 55%);
+}
